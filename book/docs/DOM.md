@@ -197,6 +197,9 @@
         const box = document.querySelector('.box');
         console.log(box.dataset);
         console.log(box.dataset.id);
+        box.dataset.id = 233;
+        console.log(box.dataset);
+        console.log(box.dataset.id);
     </script>
 </body>
 </html>
