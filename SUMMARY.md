@@ -15,4 +15,5 @@
     * [DOM](docs/DOM.md)
     * [事件监听](docs/事件监听.md)
     * [本地存储](docs/本地存储.md)
+    * [会话存储](docs/会话存储.md)
 
