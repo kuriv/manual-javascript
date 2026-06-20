@@ -228,7 +228,59 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.8" data-path="函数功能.html">
+        <li class="chapter " data-level="1.1.8" data-path="日期操作.html">
+            
+                <a href="日期操作.html">
+            
+                    
+                    日期操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9" data-path="数学操作.html">
+            
+                <a href="数学操作.html">
+            
+                    
+                    数学操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.10" data-path="数值操作.html">
+            
+                <a href="数值操作.html">
+            
+                    
+                    数值操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.11" data-path="字符串操作.html">
+            
+                <a href="字符串操作.html">
+            
+                    
+                    字符串操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.12" data-path="函数功能.html">
             
                 <a href="函数功能.html">
             
@@ -241,7 +293,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.9" data-path="对象使用.html">
+        <li class="chapter active" data-level="1.1.13" data-path="对象使用.html">
             
                 <a href="对象使用.html">
             
@@ -254,7 +306,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.10" data-path="模块化.html">
+        <li class="chapter " data-level="1.1.14" data-path="模块化.html">
             
                 <a href="模块化.html">
             
@@ -267,7 +319,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.11" data-path="异步编程.html">
+        <li class="chapter " data-level="1.1.15" data-path="异步编程.html">
             
                 <a href="异步编程.html">
             
@@ -280,7 +332,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.12" data-path="DOM.html">
+        <li class="chapter " data-level="1.1.16" data-path="DOM.html">
             
                 <a href="DOM.html">
             
@@ -293,7 +345,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.13" data-path="事件监听.html">
+        <li class="chapter " data-level="1.1.17" data-path="事件监听.html">
             
                 <a href="事件监听.html">
             
@@ -306,7 +358,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.14" data-path="本地存储.html">
+        <li class="chapter " data-level="1.1.18" data-path="本地存储.html">
             
                 <a href="本地存储.html">
             
@@ -319,7 +371,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.15" data-path="会话存储.html">
+        <li class="chapter " data-level="1.1.19" data-path="会话存储.html">
             
                 <a href="会话存储.html">
             
@@ -387,12 +439,23 @@
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
     name<span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span>
     age<span class="token operator">:</span> <span class="token number">18</span><span class="token punctuation">,</span>
-    <span class="token string">&apos;user-name&apos;</span><span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span>
+    <span class="token string">&apos;main-title&apos;</span><span class="token operator">:</span> <span class="token string">&apos;Hello!&apos;</span><span class="token punctuation">,</span>
+    <span class="token string">&apos;sub title&apos;</span><span class="token operator">:</span> <span class="token string">&apos;Javascript!&apos;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">.</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span><span class="token string">&apos;user-name&apos;</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span><span class="token string">&apos;main-title&apos;</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span><span class="token string">&apos;sub title&apos;</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5224;&#x65AD;&#x5C5E;&#x6027;&#x662F;&#x5426;&#x5B58;&#x5728;&#x4E8E;&#x5BF9;&#x8C61;&#x4E2D;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">18</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;name&apos;</span> <span class="token keyword">in</span> obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;age&apos;</span> <span class="token keyword">in</span> obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;main-title&apos;</span> <span class="token keyword">in</span> obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5220;&#x9664;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x6307;&#x5B9A;&#x5C5E;&#x6027;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -406,9 +469,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x58F0;&#x660E;&#x5BF9;&#x8C61;&#x5E76;&#x8BBF;&#x95EE;&#x5176;&#x65B9;&#x6CD5;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
-    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -417,9 +478,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
     name<span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span>
     age<span class="token operator">:</span> <span class="token number">18</span><span class="token punctuation">,</span>
-    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">values</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -435,9 +494,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
     <span class="token punctuation">[</span>name<span class="token punctuation">]</span><span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span>
     <span class="token punctuation">[</span>age<span class="token punctuation">]</span><span class="token operator">:</span> <span class="token number">18</span><span class="token punctuation">,</span>
-    <span class="token punctuation">[</span>func<span class="token punctuation">]</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+    <span class="token punctuation">[</span>func<span class="token punctuation">]</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj<span class="token punctuation">[</span>name<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -458,34 +515,30 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Jerry<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x88AB;&#x79F0;&#x4E3A;&#x9759;&#x6001;&#x5C5E;&#x6027;&#x548C;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
 Person<span class="token punctuation">.</span>username <span class="token operator">=</span> <span class="token string">&apos;anonymous&apos;</span><span class="token punctuation">;</span>
-Person<span class="token punctuation">.</span><span class="token function-variable function">call</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
+Person<span class="token punctuation">.</span><span class="token function-variable function">func</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Person<span class="token punctuation">.</span>username<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">Person</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Person<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x5728; JavaScript &#x4E2D;&#x6240;&#x6709;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x90FD;&#x5B58;&#x5728;&#x4E00;&#x4E2A;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">function</span> <span class="token function">Person</span><span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> age</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span class="token class-name">Person</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">call</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">Person</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">func</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;Jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">Tom</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Tom<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Jerry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">Jerry</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+Jerry<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x7528;&#x5B9A;&#x4E49;&#x7C7B;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x58F0;&#x660E;&#x5BF9;&#x8C61;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
@@ -496,7 +549,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
         <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5B9E;&#x73B0;&#x7C7B;&#x7684;&#x7EE7;&#x627F;&#x3002;</p>
@@ -521,10 +574,10 @@ console<span class="token punctuation">.</span><span class="token function">log<
         <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>age<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>gender<span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">const</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SmartPerson</span><span class="token punctuation">(</span><span class="token string">&apos;jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">,</span> <span class="token string">&apos;female&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Jerry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SmartPerson</span><span class="token punctuation">(</span><span class="token string">&apos;jerry&apos;</span><span class="token punctuation">,</span> <span class="token number">18</span><span class="token punctuation">,</span> <span class="token string">&apos;female&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Jerry<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Jerry<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
@@ -540,107 +593,60 @@ console<span class="token punctuation">.</span><span class="token function">log<
         <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>#age<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x7C7B;&#x7684;&#x8BFB;&#x53D6;&#x548C;&#x4FEE;&#x6539;&#x884C;&#x4E3A;&#x3002;</p>
 <pre class="language-"><code class="lang-javascript"><span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
-    name <span class="token operator">=</span> <span class="token string">&apos;anonymous&apos;</span><span class="token punctuation">;</span>
+    #name <span class="token operator">=</span> <span class="token string">&apos;anonymous&apos;</span><span class="token punctuation">;</span>
     <span class="token keyword">get</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;get&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>#name<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
     <span class="token keyword">set</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&apos;set&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>#name <span class="token operator">=</span> name<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-<span class="token keyword">const</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> Tom <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
 Tom<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&apos;tom&apos;</span><span class="token punctuation">;</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Tom<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x4F7F;&#x7528;&#x53EF;&#x9009;&#x94FE;&#x64CD;&#x4F5C;&#x7B26;&#x8BBF;&#x95EE;&#x6307;&#x5B9A;&#x53D8;&#x91CF;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">const</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
     name<span class="token operator">:</span> <span class="token string">&apos;tom&apos;</span><span class="token punctuation">,</span>
     age<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
-    call<span class="token operator">:</span> <span class="token punctuation">{</span>
+    obj<span class="token operator">:</span> <span class="token punctuation">{</span>
         foo<span class="token operator">:</span> <span class="token string">&apos;bar&apos;</span><span class="token punctuation">,</span>
         <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>call<span class="token operator">?.</span>foo<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>call<span class="token operator">?.</span>bar<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>call<span class="token operator">?.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>obj<span class="token operator">?.</span>foo<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>obj<span class="token operator">?.</span>bar<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>person<span class="token operator">?.</span>obj<span class="token operator">?.</span><span class="token function">func</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
-<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x4F7F;&#x7528;&#x7A7A;&#x503C;&#x5408;&#x5E76;&#x64CD;&#x4F5C;&#x7B26;&#x8BBF;&#x95EE;&#x6307;&#x5B9A;&#x53D8;&#x91CF;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> num<span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num <span class="token operator">??</span> <span class="token number">233</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-num <span class="token operator">??</span><span class="token operator">=</span> <span class="token number">233</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>Math &#x5BF9;&#x8C61;&#x4E2D;&#x5305;&#x542B;&#x4E86; JavaScript &#x63D0;&#x4F9B;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x6570;&#x5B66;&#x8FD0;&#x7B97;&#x65B9;&#x6CD5;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">ceil</span><span class="token punctuation">(</span><span class="token number">3.7</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span><span class="token number">3.7</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">max</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">min</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">233</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">trunc</span><span class="token punctuation">(</span><span class="token number">3.5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token keyword">function</span> <span class="token function">equal</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> Math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>a <span class="token operator">-</span> b<span class="token punctuation">)</span> <span class="token operator">&lt;</span> Number<span class="token punctuation">.</span><span class="token constant">EPSILON</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">0.1</span> <span class="token operator">+</span> <span class="token number">0.2</span> <span class="token operator">===</span> <span class="token number">0.3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">equal</span><span class="token punctuation">(</span><span class="token number">0.1</span> <span class="token operator">+</span> <span class="token number">0.2</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>Number &#x5BF9;&#x8C61;&#x5305;&#x542B;&#x4E86; JavaScript &#x63D0;&#x4F9B;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x6570;&#x503C;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">100</span> <span class="token operator">/</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">Infinity</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isNaN</span><span class="token punctuation">(</span><span class="token number">233</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isInteger</span><span class="token punctuation">(</span><span class="token number">666</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isInteger</span><span class="token punctuation">(</span><span class="token number">1.23</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">&apos;233Hello&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">&apos;3.1415926World&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>Date &#x5BF9;&#x8C61;&#x4E2D;&#x5305;&#x542B;&#x4E86; JavaScript &#x63D0;&#x4F9B;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x65E5;&#x671F;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">const</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getFullYear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getMonth</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getDay</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getHours</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getMinutes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span><span class="token function">getSeconds</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Date<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>Object &#x5BF9;&#x8C61;&#x4E2D;&#x5305;&#x542B;&#x4E86; JavaScript &#x63D0;&#x4F9B;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x5BF9;&#x8C61;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">is</span><span class="token punctuation">(</span><span class="token number">233</span><span class="token punctuation">,</span> <span class="token number">233</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">is</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">,</span> <span class="token number">NaN</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> obj1 <span class="token operator">=</span> <span class="token punctuation">{</span>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C06;&#x4E0D;&#x540C;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x5408;&#x5E76;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> obj1 <span class="token operator">=</span> <span class="token punctuation">{</span>
     name<span class="token operator">:</span> <span class="token string">&apos;Tom&apos;</span><span class="token punctuation">,</span>
     age<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
-    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+    <span class="token function-variable function">func</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&apos;Hello World!&apos;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> obj2 <span class="token operator">=</span> <span class="token punctuation">{</span>
     name<span class="token operator">:</span> <span class="token string">&apos;Jerry&apos;</span><span class="token punctuation">,</span>
     age<span class="token operator">:</span> <span class="token number">18</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>obj1<span class="token punctuation">,</span> obj2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>ES11 &#x5F15;&#x5165;&#x4E86; globalThis &#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF0C;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x6240;&#x6709; JavaScript &#x8FD0;&#x884C;&#x73AF;&#x5883;&#x63D0;&#x4F9B;&#x6807;&#x51C6;&#x5316;&#x63A5;&#x53E3;&#x6765;&#x8BBF;&#x95EE;&#x5168;&#x5C40;&#x5BF9;&#x8C61;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>globalThis<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre>
-<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x63A7;&#x5236;&#x6D4F;&#x89C8;&#x5668;&#x524D;&#x8FDB;&#x4E0E;&#x540E;&#x9000;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript">history<span class="token punctuation">.</span><span class="token function">back</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-history<span class="token punctuation">.</span><span class="token function">forward</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> obj3 <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&apos;Spike&apos;</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+    gender<span class="token operator">:</span> <span class="token string">&apos;male&apos;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>obj1<span class="token punctuation">,</span> obj2<span class="token punctuation">,</span> obj3<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>obj3<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 
                                 
@@ -685,7 +691,7 @@ history<span class="token punctuation">.</span><span class="token function">forw
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"对象使用","level":"1.1.9","depth":2,"next":{"title":"模块化","level":"1.1.10","depth":2,"path":"docs/模块化.md","ref":"docs/模块化.md","articles":[]},"previous":{"title":"函数功能","level":"1.1.8","depth":2,"path":"docs/函数功能.md","ref":"docs/函数功能.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/对象使用.md","mtime":"2026-02-25T15:25:07.823Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-03-12T14:51:54.860Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"对象使用","level":"1.1.13","depth":2,"next":{"title":"模块化","level":"1.1.14","depth":2,"path":"docs/模块化.md","ref":"docs/模块化.md","articles":[]},"previous":{"title":"函数功能","level":"1.1.12","depth":2,"path":"docs/函数功能.md","ref":"docs/函数功能.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/对象使用.md","mtime":"2026-06-20T10:38:28.525Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-20T11:01:23.889Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

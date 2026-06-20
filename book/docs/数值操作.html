@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>类型转换 · JavaScript</title>
+        <title>数值操作 · JavaScript</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -74,10 +74,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="数组操作.html" />
+    <link rel="next" href="字符串操作.html" />
     
     
-    <link rel="prev" href="引用数据类型.html" />
+    <link rel="prev" href="数学操作.html" />
     
 
     
@@ -202,7 +202,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.6" data-path="类型转换.html">
+        <li class="chapter " data-level="1.1.6" data-path="类型转换.html">
             
                 <a href="类型转换.html">
             
@@ -254,7 +254,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.10" data-path="数值操作.html">
+        <li class="chapter active" data-level="1.1.10" data-path="数值操作.html">
             
                 <a href="数值操作.html">
             
@@ -419,7 +419,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >类型转换</a>
+        <a href=".." >数值操作</a>
     </h1>
 </div>
 
@@ -434,24 +434,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x7C7B;&#x578B;&#x8F6C;&#x6362;">&#x7C7B;&#x578B;&#x8F6C;&#x6362;</h1>
-<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C06;&#x53D8;&#x91CF;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4E3A;&#x6570;&#x503C;&#x7C7B;&#x578B;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">&apos;233&apos;</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">Number</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">Number</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                                <h1 id="&#x6570;&#x503C;&#x64CD;&#x4F5C;">&#x6570;&#x503C;&#x64CD;&#x4F5C;</h1>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x6709;&#x9650;&#x6570;&#x5B57;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">100</span> <span class="token operator">/</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isFinite</span><span class="token punctuation">(</span><span class="token number">Infinity</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
-<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C06;&#x53D8;&#x91CF;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> num <span class="token operator">=</span> <span class="token number">233</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">String</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">String</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x5408;&#x6CD5;&#x6570;&#x5B57;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isNaN</span><span class="token punctuation">(</span><span class="token number">233</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isNaN</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isNaN</span><span class="token punctuation">(</span><span class="token number">0</span> <span class="token operator">/</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
-<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C06;&#x53D8;&#x91CF;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4E3A;&#x5E03;&#x5C14;&#x7C7B;&#x578B;&#x3002;</p>
-<pre class="language-"><code class="lang-javascript"><span class="token keyword">let</span> num <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">&apos;Hello World!&apos;</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">Boolean</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">Boolean</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">Boolean</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">Boolean</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">Boolean</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">Boolean</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">Boolean</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">typeof</span> <span class="token function">Boolean</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x662F;&#x6574;&#x6570;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isInteger</span><span class="token punctuation">(</span><span class="token number">666</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">isInteger</span><span class="token punctuation">(</span><span class="token number">1.23</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4E3A;&#x6574;&#x6570;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token string">&apos;233Hello&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>&#x6267;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5F3A;&#x5236;&#x8F6C;&#x6362;&#x4E3A;&#x6D6E;&#x70B9;&#x6570;&#x3002;</p>
+<pre class="language-"><code class="lang-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Number<span class="token punctuation">.</span><span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">&apos;3.1415926World&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 
                                 
@@ -480,12 +482,12 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
             
                 
-                <a href="引用数据类型.html" class="navigation navigation-prev " aria-label="Previous page: 引用数据类型">
+                <a href="数学操作.html" class="navigation navigation-prev " aria-label="Previous page: 数学操作">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="数组操作.html" class="navigation navigation-next " aria-label="Next page: 数组操作">
+                <a href="字符串操作.html" class="navigation navigation-next " aria-label="Next page: 字符串操作">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -496,7 +498,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"类型转换","level":"1.1.6","depth":2,"next":{"title":"数组操作","level":"1.1.7","depth":2,"path":"docs/数组操作.md","ref":"docs/数组操作.md","articles":[]},"previous":{"title":"引用数据类型","level":"1.1.5","depth":2,"path":"docs/引用数据类型.md","ref":"docs/引用数据类型.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/类型转换.md","mtime":"2026-06-20T08:12:41.060Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-20T11:01:23.889Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"数值操作","level":"1.1.10","depth":2,"next":{"title":"字符串操作","level":"1.1.11","depth":2,"path":"docs/字符串操作.md","ref":"docs/字符串操作.md","articles":[]},"previous":{"title":"数学操作","level":"1.1.9","depth":2,"path":"docs/数学操作.md","ref":"docs/数学操作.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/数值操作.md","mtime":"2026-06-20T08:31:03.784Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-20T11:01:23.889Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

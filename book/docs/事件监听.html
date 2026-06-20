@@ -228,7 +228,59 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.8" data-path="函数功能.html">
+        <li class="chapter " data-level="1.1.8" data-path="日期操作.html">
+            
+                <a href="日期操作.html">
+            
+                    
+                    日期操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.9" data-path="数学操作.html">
+            
+                <a href="数学操作.html">
+            
+                    
+                    数学操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.10" data-path="数值操作.html">
+            
+                <a href="数值操作.html">
+            
+                    
+                    数值操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.11" data-path="字符串操作.html">
+            
+                <a href="字符串操作.html">
+            
+                    
+                    字符串操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.12" data-path="函数功能.html">
             
                 <a href="函数功能.html">
             
@@ -241,7 +293,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.9" data-path="对象使用.html">
+        <li class="chapter " data-level="1.1.13" data-path="对象使用.html">
             
                 <a href="对象使用.html">
             
@@ -254,7 +306,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.10" data-path="模块化.html">
+        <li class="chapter " data-level="1.1.14" data-path="模块化.html">
             
                 <a href="模块化.html">
             
@@ -267,7 +319,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.11" data-path="异步编程.html">
+        <li class="chapter " data-level="1.1.15" data-path="异步编程.html">
             
                 <a href="异步编程.html">
             
@@ -280,7 +332,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.12" data-path="DOM.html">
+        <li class="chapter " data-level="1.1.16" data-path="DOM.html">
             
                 <a href="DOM.html">
             
@@ -293,7 +345,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.13" data-path="事件监听.html">
+        <li class="chapter active" data-level="1.1.17" data-path="事件监听.html">
             
                 <a href="事件监听.html">
             
@@ -306,7 +358,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.14" data-path="本地存储.html">
+        <li class="chapter " data-level="1.1.18" data-path="本地存储.html">
             
                 <a href="本地存储.html">
             
@@ -319,7 +371,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.15" data-path="会话存储.html">
+        <li class="chapter " data-level="1.1.19" data-path="会话存储.html">
             
                 <a href="会话存储.html">
             
@@ -395,9 +447,7 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span>Click<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const btn = document.querySelector(&apos;button&apos;);
-        btn.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;Hello World!&apos;);
-        });
+        btn.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;Hello World!&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -414,12 +464,8 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span>Click<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const btn = document.querySelector(&apos;button&apos;);
-        btn.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;Hello World!&apos;);
-        });
-        btn.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;Hello JavaScript!&apos;);
-        });
+        btn.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;Hello World!&apos;));
+        btn.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;Hello JavaScript!&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -443,12 +489,8 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>box<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Hello World!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const box = document.querySelector(&apos;.box&apos;);
-        box.addEventListener(&apos;mouseenter&apos;, function() {
-            console.log(&apos;enter&apos;);
-        });
-        box.addEventListener(&apos;mouseleave&apos;, function() {
-            console.log(&apos;leave&apos;);
-        });
+        box.addEventListener(&apos;mouseenter&apos;, () =&gt; console.log(&apos;enter&apos;));
+        box.addEventListener(&apos;mouseleave&apos;, () =&gt; console.log(&apos;leave&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -462,17 +504,15 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>JavaScript<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post<span class="token punctuation">&quot;</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>off<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>username<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const input = document.querySelector(&apos;input&apos;);
-        input.addEventListener(&apos;keydown&apos;, function() {
-            console.log(&apos;down&apos;);
-        });
-        input.addEventListener(&apos;keyup&apos;, function(e) {
+        input.addEventListener(&apos;keydown&apos;, () =&gt; console.log(&apos;down&apos;));
+        input.addEventListener(&apos;keyup&apos;, event =&gt; {
             console.log(&apos;up&apos;);
-            console.log(e.key);
+            console.log(event.key);
         });
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
@@ -494,17 +534,11 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const box1 = document.querySelector(&apos;.box1&apos;);
-        box1.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;box1&apos;);
-        });
+        box1.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;box1&apos;));
         const box2 = document.querySelector(&apos;.box2&apos;);
-        box2.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;box2&apos;);
-        });
+        box2.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;box2&apos;));
         const box3 = document.querySelector(&apos;.box3&apos;);
-        box3.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;box3&apos;);
-        });
+        box3.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;box3&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -525,17 +559,13 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const box1 = document.querySelector(&apos;.box1&apos;);
-        box1.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;box1&apos;);
-        });
+        box1.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;box1&apos;));
         const box2 = document.querySelector(&apos;.box2&apos;);
-        box2.addEventListener(&apos;click&apos;, function() {
-            console.log(&apos;box2&apos;);
-        });
+        box2.addEventListener(&apos;click&apos;, () =&gt; console.log(&apos;box2&apos;));
         const box3 = document.querySelector(&apos;.box3&apos;);
-        box3.addEventListener(&apos;click&apos;, function(e) {
+        box3.addEventListener(&apos;click&apos;, event =&gt; {
             console.log(&apos;box3&apos;);
-            e.stopPropagation();
+            event.stopPropagation();
         });
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
@@ -558,9 +588,9 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const ul = document.querySelector(&apos;ul&apos;);
-        ul.addEventListener(&apos;click&apos;, function(e) {
-            if (e.target.tagName === &apos;LI&apos;) {
-                e.target.style.color = &apos;red&apos;;
+        ul.addEventListener(&apos;click&apos;, event =&gt; {
+            if (event.target.tagName === &apos;LI&apos;) {
+                event.target.style.color = &apos;red&apos;;
             }
         });
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
@@ -576,19 +606,16 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>JavaScript<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post<span class="token punctuation">&quot;</span></span> <span class="token attr-name">autocomplete</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>off<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>username<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>submit<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Submit<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Click<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
         const form = document.querySelector(&apos;form&apos;);
-        form.addEventListener(&apos;submit&apos;, function(e) {
-            e.preventDefault();
-        });
+        form.addEventListener(&apos;submit&apos;, event =&gt; event.preventDefault());
         const a = document.querySelector(&apos;a&apos;);
-        a.addEventListener(&apos;click&apos;, function(e) {
-            e.preventDefault();
-        });
+        a.addEventListener(&apos;click&apos;, event =&gt; event.preventDefault());
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -603,12 +630,8 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-        window.addEventListener(&apos;load&apos;, function() {
-            console.log(&apos;Hello JavaScript!&apos;);
-        });
-        document.addEventListener(&apos;DOMContentLoaded&apos;, function() {
-            console.log(&apos;Hello World!&apos;);
-        });
+        window.addEventListener(&apos;load&apos;, () =&gt; console.log(&apos;Hello JavaScript!&apos;));
+        document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; console.log(&apos;Hello World!&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -629,9 +652,7 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>box<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-        window.addEventListener(&apos;scroll&apos;, function() {
-            console.log(&apos;scroll&apos;);
-        });
+        window.addEventListener(&apos;scroll&apos;, () =&gt; console.log(&apos;scroll&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -646,9 +667,7 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-        window.addEventListener(&apos;resize&apos;, function() {
-            console.log(&apos;resize&apos;);
-        });
+        window.addEventListener(&apos;resize&apos;, () =&gt; console.log(&apos;resize&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -663,15 +682,9 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-        document.addEventListener(&apos;touchstart&apos;, function() {
-            console.log(&apos;touchstart&apos;);
-        });
-        document.addEventListener(&apos;touchmove&apos;, function() {
-            console.log(&apos;touchmove&apos;);
-        });
-        document.addEventListener(&apos;touchend&apos;, function() {
-            console.log(&apos;touchend&apos;);
-        });
+        document.addEventListener(&apos;touchstart&apos;, () =&gt; console.log(&apos;touchstart&apos;));
+        document.addEventListener(&apos;touchmove&apos;, () =&gt; console.log(&apos;touchmove&apos;));
+        document.addEventListener(&apos;touchend&apos;, () =&gt; console.log(&apos;touchend&apos;));
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
@@ -740,7 +753,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"事件监听","level":"1.1.13","depth":2,"next":{"title":"本地存储","level":"1.1.14","depth":2,"path":"docs/本地存储.md","ref":"docs/本地存储.md","articles":[]},"previous":{"title":"DOM","level":"1.1.12","depth":2,"path":"docs/DOM.md","ref":"docs/DOM.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/事件监听.md","mtime":"2025-09-21T12:35:10.002Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-03-12T14:51:54.860Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"事件监听","level":"1.1.17","depth":2,"next":{"title":"本地存储","level":"1.1.18","depth":2,"path":"docs/本地存储.md","ref":"docs/本地存储.md","articles":[]},"previous":{"title":"DOM","level":"1.1.16","depth":2,"path":"docs/DOM.md","ref":"docs/DOM.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","favicon","hide-element","lightbox","-highlight","prism","-lunr","-search","search-pro","splitter","livereload"],"root":"","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"livereload":{},"splitter":{},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico","appleTouch":"favicon.png","appleTouchMore":{"120x120":"favicon-120x120.png","180x180":"favicon-180x180.png"}},"lightbox":{"jquery":true,"sameUuid":false},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kuriv Vesti","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"JavaScript","language":"zh-hans","gitbook":">=3.0.0","description":"JavaScript 手册","direction":"ltr"},"file":{"path":"docs/事件监听.md","mtime":"2026-06-20T11:01:11.412Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-20T11:01:23.889Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
