@@ -1,6 +1,6 @@
 {
   "name": "manual-javascript",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "JavaScript 是一种具有函数优先的轻量级、解释型、即时编译型的编程语言。",
   "main": "index.js",
   "scripts": {

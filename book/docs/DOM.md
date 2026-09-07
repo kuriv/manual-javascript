@@ -18,7 +18,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const nav = document.querySelector('#nav');
         console.log(nav);
         const box = document.querySelector('.box');
@@ -48,7 +48,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const li = document.querySelectorAll('ul li');
         console.log(li);
     </script>
@@ -75,7 +75,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const nav = document.getElementById('nav');
         console.log(nav);
         const box = document.getElementsByClassName('box');
@@ -99,7 +99,7 @@
 </head>
 <body>
     <nav id="nav">Hello World!</nav>
-    <script type="text/javascript">
+    <script>
         const nav = document.querySelector('#nav');
         console.log(nav);
         nav.innerHTML = '<p>Hello JavaScript!</p>';
@@ -120,7 +120,7 @@
 </head>
 <body>
     <div class="box">Hello World!</div>
-    <script type="text/javascript">
+    <script>
         const box = document.querySelector('.box');
         box.style.color = 'red';
     </script>
@@ -140,7 +140,7 @@
 </head>
 <body>
     <div class="box">Hello World!</div>
-    <script type="text/javascript">
+    <script>
         const box = document.querySelector('.box');
         console.log(box.className);
         box.className = 'nav';
@@ -167,7 +167,7 @@
 </head>
 <body>
     <div class="box">Hello World!</div>
-    <script type="text/javascript">
+    <script>
         const box = document.querySelector('.box');
         console.log(box.className);
         box.classList.add('nav');
@@ -193,7 +193,7 @@
 </head>
 <body>
     <div class="box" data-id="1">Hello World!</div>
-    <script type="text/javascript">
+    <script>
         const box = document.querySelector('.box');
         console.log(box.dataset);
         console.log(box.dataset.id);
@@ -219,7 +219,7 @@
     <nav class="nav">
         <div class="box"></div>
     </nav>
-    <script type="text/javascript">
+    <script>
         const box = document.querySelector('.box');
         console.log(box.parentNode);
     </script>
@@ -243,7 +243,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const ul = document.querySelector('ul');
         console.log(ul.children);
     </script>
@@ -267,7 +267,7 @@
         <li class="li">2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const li = document.querySelector('.li');
         console.log(li.previousElementSibling);
         console.log(li.nextElementSibling);
@@ -292,7 +292,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const div = document.createElement('div');
         document.body.appendChild(div);
         const ul = document.querySelector('ul');
@@ -320,7 +320,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const div = document.querySelector('div');
         const ul = document.querySelector('ul');
         const new_ul = ul.cloneNode(true);
@@ -346,7 +346,7 @@
         <li>2</li>
         <li>3</li>
     </ul>
-    <script type="text/javascript">
+    <script>
         const ul = document.querySelector('ul');
         ul.removeChild(ul.children[0]);
     </script>
